@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm ci && npx vite build && cd ../backend && npm ci",
+    "build": "cd frontend && npm ci && npm run build && cd ../backend && npm ci",
     "start": "npm run start --prefix backend"
   },
   "keywords": [],
