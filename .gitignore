@@ -1,66 +1,26 @@
-# Node modules
-node_modules/
-
 # Logs
-logs/
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
+node_modules
+dist
+dist-ssr
+*.local
 
-# Environment variables
-.env
-.env.*.local
-
-# Build output
-dist/
-build/
-out/
-coverage/
-.tmp/
-.temp/
-
-# Dependency directories
-jspm_packages/
-
-# TypeScript
-*.tsbuildinfo
-
-# IDE / Editor settings
-.vscode/
-.idea/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+*.sw?
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Optional caches
-.cache/
-.eslintcache/
-.npm/
-.yarn-cache/
-.pnpm-store/
-
-# Testing
-coverage/
-.nyc_output/
-
-# Docker
-docker-compose.override.yml
-*.env.docker
-
-# Misc
-*.tgz
-*.bak
-*.orig
+.env
